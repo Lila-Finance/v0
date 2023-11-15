@@ -1,6 +1,6 @@
 {
-  "homepage": "http://www.lila.finance/",
-  "name": "release",
+  "homepage": "http://v0.lila.finance/",
+  "name": "v0",
   "private": true,
   "version": "0.0.0",
   "type": "module",
