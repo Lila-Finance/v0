@@ -13,14 +13,14 @@ const NoPoolsScreen = () => {
       {/* texts */}
       <div className="mt-6 text-center">
         <h2 className="text-xl md:text-2xl lg:text-[36px] font-bold mb-4">
-          Looks a bit empty... <br /> Go to{" "}
+          Looks a bit empty... <br /> Check that {" "}
           {/* <NavLink
             to="/market"
             className="text-buttonText underline underline-offset-8 inline-block lg:mt-[10px] text-[#f85c70]"
           >
             Market
           </NavLink>{" "} */}
-          to find Pools 
+          your wallet is connected, otherwise please wait. 
         </h2>
 
 
