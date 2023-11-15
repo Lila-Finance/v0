@@ -5,7 +5,7 @@ import "./index.css";
 // import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
-import Market from "./pages/Market.jsx";
+// import Market from "./pages/Market.jsx";
 import Home from "./pages/Home.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 import "@rainbow-me/rainbowkit/styles.css";
@@ -65,7 +65,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <Routes>
               <Route path="/" element={<App />}>
                 <Route index element={<Home />} />
-                <Route path="market" element={<Market />} />
+                {/* <Route path="market" element={<Market />} /> */}
                 <Route path="portfolio" element={<Portfolio />} />
               </Route>
             </Routes>

@@ -101,11 +101,11 @@ const Banner = () => {
 
         {/* buttons */}
         <div className="md:text-start text-center">
-          <NavLink to="/market">
+          {/* <NavLink to="/market">
             <button className="bg-themeColor lg:text-lg md:py-[10px] py-2 px-8 md:px-12 rounded-full duration-300 hover:translate-x-3">
               Earn Now
             </button>
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
 

@@ -77,9 +77,9 @@ const Navbar = ({ homepage }) => {
         {/* NavLinks */}
         {!homepage && (
           <div className="flex items-center gap-10 navlinks">
-            <NavLink to="/market">
+            {/* <NavLink to="/market">
               <p className="text-lg lg:text-xl">Market</p>
-            </NavLink>
+            </NavLink> */}
 
             <NavLink to="/portfolio">
               <p className="text-lg lg:text-xl">Portfolio</p>
